@@ -70,9 +70,6 @@
     <EmbeddedJar Include="Jars\categories.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\expandablecheckrecycleview.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\expandablerecycleview.jar" />
   </ItemGroup>
   <ItemGroup>

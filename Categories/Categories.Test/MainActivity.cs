@@ -66,6 +66,9 @@ namespace Categories.Test
             Item media = new Item(Item.Types.Category, "Media");
             media.items = new List<Item>() { new Item(Item.Types.Item, "Tenor"), new Item(Item.Types.Item, "Giphy") };
             items.Add(media);
+            Item deprecated = new Item(Item.Types.Category, "Deprecated");
+            deprecated.items = new List<Item>() { new Item(Item.Types.Item, "WhatsApp") };
+            items.Add(deprecated);
 
             foreach (Item category in items)
             {
