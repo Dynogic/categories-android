@@ -1,6 +1,6 @@
 # Categories for Xamarin.Android
 
-Expandable Recycler View by Amanda Hill (https://github.com/thoughtbot/expandable-recycler-view) is a great example of a library that enables categories with sub-items to exist in a RecyclerView.
+[Expandable RecyclerView](https://github.com/thoughtbot/expandable-recycler-view) by Amanda Hill is a great example of a library that enables categories with sub-items to exist in a RecyclerView.
 
 Binding this project for Xamarin.Android proved to be challenging. As a result, a thin wrapper library  ubiquitously called *categories* was written that surfaces the library in an understandable fashion to Xamarin.Android's binding utility.
 
