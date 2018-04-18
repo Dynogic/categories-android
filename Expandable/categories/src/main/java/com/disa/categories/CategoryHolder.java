@@ -10,7 +10,6 @@ class CategoryHolder extends GroupViewHolder {
     private final View itemView;
 
     private ItemData data;
-    private boolean hasCalledConstruct;
 
     public CategoryHolder(View itemView) {
         super(itemView);
@@ -19,12 +18,9 @@ class CategoryHolder extends GroupViewHolder {
 
     public void bind(final ExpandableGroup expandableGroup) {
         if (expandableGroup instanceof Category) {
-            final Category category = (Category)expandableGroup;
-            if (!hasCalledConstruct) {
-                data = category.getData();
-                data.delegates.construct(itemView);
-                hasCalledConstruct = true;
-            }
+            Category category = (Category)expandableGroup;
+            data = category.getData();
+            data.delegates.construct(itemView);
             data.delegates.bind(category, new ItemData.IDispatchClick() {
                 @Override
                 public void dispatchClick() {

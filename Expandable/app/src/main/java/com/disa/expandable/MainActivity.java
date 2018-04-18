@@ -67,9 +67,14 @@ public class MainActivity extends AppCompatActivity {
         List<Item> items = new ArrayList<>();
 
         items.add(new Item(Item.Types.Category, "Telegram"));
+        items.add(new Item(Item.Types.Category, "Facebook"));
+        items.add(new Item(Item.Types.Category, "Text"));
         Item media = new Item(Item.Types.Category, "Media");
         media.items = Arrays.asList(new Item(Item.Types.Item, "Tenor"), new Item(Item.Types.Item, "Giphy"));
         items.add(media);
+        Item deprecated = new Item(Item.Types.Category, "Deprecated");
+        deprecated.items = Arrays.asList(new Item(Item.Types.Item, "WhatsApp"));
+        items.add(deprecated);
 
         for (final Item category : items) {
             category.data = new ItemData(new ItemData.IDelegates() {
