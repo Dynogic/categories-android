@@ -1,10 +1,10 @@
 package com.disa.categories;
 
-import com.thoughtbot.expandablecheckrecyclerview.models.MultiCheckExpandableGroup;
+import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
 
 import java.util.List;
 
-class Category extends MultiCheckExpandableGroup implements IItem {
+class Category extends ExpandableGroup implements IItem {
 
     private final ItemData data;
 

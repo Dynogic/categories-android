@@ -21,7 +21,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:recyclerview-v7:26.+'
     compile project(path: ':expandablerecyclerview')
-    compile project(path: ':expandablecheckrecyclerview')
 }
 
 task deleteJar(type: Delete) {
