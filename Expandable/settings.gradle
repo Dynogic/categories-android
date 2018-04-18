@@ -1,0 +1,3 @@
+include ':app', ':expandablerecyclerview', ':expandablecheckrecyclerview', ':categories'
+project(':expandablerecyclerview').projectDir = new File('expandable-recycler-view/expandablerecyclerview')
+project(':expandablecheckrecyclerview').projectDir = new File('expandable-recycler-view/expandablecheckrecyclerview')
