@@ -6,7 +6,7 @@ Binding this project for Xamarin.Android proved to be challenging. As a result, 
 
 ## Usage
 
-[MainActivity.java](Expandable/app/src/main/java/com/disa/expandable/MainActivity.java) serves as a good entry point on how the *categories* library is interfaced in Java. Moreover, [MainActivity.cs](Categories/Categories.Test/MainActivity.cs) showcases the same example of categories library binded and interfaced in C#. Code between the two files has been kept as similar as possible.
+[MainActivity.java](Expandable/app/src/main/java/com/disa/expandable/MainActivity.java) serves as a good entry point on how the categories library is interfaced in Java. Moreover, [MainActivity.cs](Categories/Categories.Test/MainActivity.cs) showcases the same example of categories library binded and interfaced in C#. Code between the two files has been kept as similar as possible.
 
 ## License
 
